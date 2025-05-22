@@ -4,7 +4,6 @@ import NotFound from "../../pages/NotFound";
 import AboutMe from "../../pages/AboutMe";
 import Projects from "../../pages/Projects";
 import SiteLayout from "../../SiteLayout";
-import Project from "../../pages/Projects/Project";
 
 const Paths = () => {
     return (
@@ -14,7 +13,7 @@ const Paths = () => {
                     <Route index element={<Home />} />
                     <Route path="/aboutme" element={<AboutMe />} />
                     <Route path="/projects" element={<Projects />} />
-                    <Route path="projects/:id/:name" element={<Project />} />
+                    <Route path="projects/:id/:name" element={<Proje />} />
                 </Route>
                 <Route path="*" element={<NotFound />} />
             </Routes>

@@ -4,7 +4,6 @@ import NotFound from "../../pages/NotFound";
 import AboutMe from "../../pages/AboutMe";
 import Projects from "../../pages/Projects";
 import SiteLayout from "../../SiteLayout";
-import Project from "../../pages/Projects/Project";
 
 const Paths = () => {
     return (

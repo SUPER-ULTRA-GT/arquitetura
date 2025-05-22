@@ -8,10 +8,7 @@ const Projects = () => {
                 <a href="/projects/1/gambiarra"> Gambiarra</a>
             </li>
             <li>
-                <a href="/projects/2/coda-fofo"> Coda fofo</a>
-            </li>
-            <li>
-                <a href="/projects/1/dependente-de-ia"> dependente de IA</a>
+                <a href="/projects/1/coda-fofo"> Coda fofo</a>
             </li>
         </ul>
         </>
